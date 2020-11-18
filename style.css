@@ -76,7 +76,8 @@ html,body{
     left: 20%;
     top: 55%;
     transform: translate(0,-55%);
-    background-image: url("C:///Users//RAJVILLA//OneDrive//Desktop//INTERIOR -3.jpg");
+/*     background-image: url("C:///Users//RAJVILLA//OneDrive//Desktop//INTERIOR -3.jpg"); */
+    background-image: url("INTERIOR -3.jpg");
     background-size: cover;
     background-position: center;
 
