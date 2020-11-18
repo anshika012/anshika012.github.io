@@ -1,0 +1,279 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* background-color: purple; */
+}
+
+.left{
+    height: 100%;
+    width: 40%;
+    background-color: #E7D7C2;
+    
+   
+}
+
+#corner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 20%;
+    
+}
+
+#side-head{
+   
+    color: white;
+    /* background-color: black; */
+    height: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#side-head h6{
+    
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+}
+
+#share{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color:#998675;
+    height: 65px;
+    width: 100%;
+}
+
+#share i{
+    font-size: 9px;
+    margin-left: 5px;
+}
+
+#img{
+    position: absolute;
+    height: 60%;
+    width: 30%;
+    left: 20%;
+    top: 55%;
+    transform: translate(0,-55%);
+    background-image: url("C:///Users/RAJVILLA/OneDrive/Desktop/INTERIOR -3.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    top: 0px;
+    height: 65px;
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    /* font-weight: 600%; */
+
+}
+
+#nav a{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    /* margin-left: 70px; */
+}
+
+#bottom{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(250, 214, 149);
+    position: absolute;
+    left: 30%;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 35px;
+    height: 65px;
+    width: 57%;
+    color: white;
+    background-color:#998675;
+}
+
+#active_arrow {
+    margin-left: 18px;
+    
+}
+
+
+
+#center a{
+     text-decoration: none;
+     margin-left: 25px;
+     color: #C0B6B6;
+     font-size: 13px;
+   
+ }
+
+#center #active{
+    font-size: 13px;
+    color: #E2E2E2;
+    text-decoration: underline;
+    
+} 
+
+.right{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+}
+
+#right-end{
+    padding: 0px 15px;
+    position: absolute;
+    right: 0px;
+    height: 65px;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+#right-end h6{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+#right-end i{
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+#matter{
+    position: absolute;
+    height: 60%;
+    top: 55%;
+    transform: translate(0,-55%);
+    left: 63%;
+    width: 25%;
+    padding: 28px 28px;
+}
+
+#matter h3{
+    font-size: 45px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+#circle{
+    display: flex;
+    margin-top: 20px;
+    padding: 10px 0px;
+    align-items: center;
+    
+}
+
+#gola{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:#E7D7C2;
+    box-shadow: 0px 0px 2px  #E7D7C2;
+    border: none;
+    left: 0px;
+
+}
+
+#arrow-right{
+        width: 0; 
+        height: 0; 
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-left: 5px solid #998675;
+        margin-left: 19px;
+
+      
+}
+
+#circle h6{
+
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 11px;
+}
+
+#line{
+    width: 100%;
+    height: 40%;
+    margin-top: 30px;
+    border: none;
+    border-left: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+#line h5{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#para{
+    font-size: 9px;
+    width: 90%;
+    opacity: .7;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+#line button{
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    height: 30px;
+    font-size: 10px;
+    outline: none;
+    box-shadow: 0px 0px 5px 1px #C7C5C6 ;
+    color: #998675;
+    padding: 10px 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#line  i{
+    font-size: 11px;
+    margin-left: 9px;
+    color:#998675 ;
+}
